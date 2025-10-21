@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="id">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+      content="Portfolio profesional - Frontend Developer dengan keahlian dalam React, JavaScript, dan UI/UX Design" />
+    <meta name="keywords" content="portfolio, frontend developer, react, javascript, web development" />
+    <meta name="author" content="Nama Anda" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Portfolio - Frontend Developer" />
+    <meta property="og:description"
+      content="Portfolio profesional dengan fokus pada pengembangan web modern dan user experience yang luar biasa" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourportfolio.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+    <title>Portfolio - Frontend Developer | Nama Anda</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+
+  <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header with improved navigation -->
+    <header role="banner">
+      <div class="header-container">
+        <div class="logo">
+          <h1>Nama Anda</h1>
+          <span class="title">Frontend Developer</span>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+
+        <nav role="navigation" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Beranda</a></li>
+            <li><a href="#about" class="nav-link">Tentang</a></li>
+            <li><a href="#projects" class="nav-link">Projek</a></li>
+            <li><a href="#skills" class="nav-link">Keahlian</a></li>
+            <li><a href="#contact" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" role="main">
+      <!-- Hero Section -->
+      <section id="home" class="hero-section" aria-labelledby="home-title">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2 id="home-title" class="hero-title">
+              Halo! Saya <span class="highlight">Muhammad Zahran Yusuf</span>
+            </h2>
+            <p class="hero-subtitle">
+              Seorang <strong>Frontend Developer</strong> yang passionate dalam menciptakan
+              pengalaman web yang luar biasa dengan teknologi modern
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">Lihat Projek Saya</a>
+              <a href="https://wa.me/62882006535777" class="btn btn-secondary" target="_blank" rel="noopener">Chat
+                WhatsApp</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-card">
+              <div class="profile-avatar">
+                <img src="ucup.jpg" alt="Foto Saya" width="300" style="margin-top: -60px;">
+              </div>
+              <div class="status-indicator"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+          <div class="scroll-arrow"></div>
+          <span>Scroll untuk eksplorasi</span>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title" class="section-title">Tentang Saya</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p class="lead">
+                Saya adalah seorang <strong>Frontend Developer</strong> dengan pengalaman
+                dalam mengembangkan aplikasi web modern dan responsif.
+              </p>
+              <p>
+                Fokus utama saya adalah menciptakan pengalaman pengguna yang luar biasa
+                dengan mengutamakan <em>aksesibilitas</em>, <em>performa</em>, dan
+                <em>struktur kode yang bersih</em>. Saya senang memecah masalah kompleks
+                menjadi solusi yang sederhana dan elegan.
+              </p>
+              <div class="about-stats">
+                <div class="stat">
+                  <span class="stat-number">50+</span>
+                  <span class="stat-label">Projek Selesai</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label">Tahun Pengalaman</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number">100%</span>
+                  <span class="stat-label">Client Satisfaction</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <div class="tech-stack">
+                <h3>Tech Stack Favorit</h3>
+                <div class="tech-items">
+                  <span class="tech-item">React</span>
+                  <span class="tech-item">TypeScript</span>
+                  <span class="tech-item">Next.js</span>
+                  <span class="tech-item">Tailwind CSS</span>
+                  <span class="tech-item">Node.js</span>
+                  <span class="tech-item">GraphQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title" class="section-title">Projek Terbaru</h2>
+          <p class="section-subtitle">Beberapa projek yang telah saya kerjakan dengan teknologi modern</p>
+
+          <div class="projects-grid">
+            <article class="project-card featured">
+              <div class="project-image">
+                <div class="project-placeholder">🎨</div>
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="View Design System UI Kit project">
+                    <span class="icon">👁️</span>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span class="project-category">Design System</span>
+                  <span class="project-year">2024</span>
+                </div>
+                <h3 class="project-title">Design System UI Kit</h3>
+                <p class="project-description">
+                  Komponen berbasis design token yang mendukung theming dan mode gelap.
+                  Dibangun dengan React dan TypeScript untuk konsistensi UI yang optimal.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Storybook</span>
+                  <span class="tech-tag">CSS-in-JS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn" rel="noreferrer noopener">
+                    <span class="icon">🌐</span>
+                    Live Demo
+                  </a>
+                  <a href="#" class="project-btn" rel="noreferrer noopener">
+                    <span class="icon">📁</span>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <div class="project-placeholder">💬</div>
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="View Realtime Chat project">
+                    <span class="icon">👁️</span>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span class="project-category">Real-time App</span>
+                  <span class="project-year">2024</span>
+                </div>
+                <h3 class="project-title">Realtime Chat Application</h3>
+                <p class="project-description">
+                  Chat berbasis WebSocket dengan sinkronisasi cepat dan UI optimistik.
+                  Mendukung emoji, file sharing, dan notifikasi real-time.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Socket.io</span>
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn" rel="noreferrer noopener">
+                    <span class="icon">🌐</span>
+                    Live Demo
+                  </a>
+                  <a href="#" class="project-btn" rel="noreferrer noopener">
+                    <span class="icon">📁</span>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <div class="project-placeholder">⚡</div>
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="View Image Optimizer CLI project">
+                    <span class="icon">👁️</span>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span class="project-category">CLI Tool</span>
+                  <span class="project-year">2023</span>
+                </div>
+                <h3 class="project-title">Image Optimizer CLI</h3>
+                <p class="project-description">
+                  Alat baris perintah untuk kompresi dan resize gambar secara batch.
+                  Mendukung berbagai format dan optimasi otomatis untuk web.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Sharp</span>
+                  <span class="tech-tag">Commander.js</span>
+                  <span class="tech-tag">CLI</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn" rel="noreferrer noopener">
+                    <span class="icon">🌐</span>
+                    Live Demo
+                  </a>
+                  <a href="#" class="project-btn" rel="noreferrer noopener">
+                    <span class="icon">📁</span>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title" class="section-title">Keahlian & Teknologi</h2>
+          <p class="section-subtitle">Teknologi dan tools yang saya kuasai</p>
+
+          <div class="skills-container">
+            <div class="skills-category">
+              <h3 class="category-title">Frontend Development</h3>
+              <div class="skills-grid">
+                <div class="skill-item" data-level="95">
+                  <span class="skill-name">HTML5</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-level="90">
+                  <span class="skill-name">CSS3 / Tailwind</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-level="88">
+                  <span class="skill-name">JavaScript / TypeScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-level="85">
+                  <span class="skill-name">React / Next.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-category">
+              <h3 class="category-title">Backend & Tools</h3>
+              <div class="skills-grid">
+                <div class="skill-item" data-level="80">
+                  <span class="skill-name">Node.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-level="75">
+                  <span class="skill-name">MongoDB</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-level="90">
+                  <span class="skill-name">Git / GitHub</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-level="85">
+                  <span class="skill-name">Docker</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="additional-skills">
+            <h3 class="category-title">Soft Skills</h3>
+            <div class="soft-skills">
+              <span class="soft-skill">Aksesibilitas</span>
+              <span class="soft-skill">Performance</span>
+              <span class="soft-skill">UI/UX Design</span>
+              <span class="soft-skill">Agile Development</span>
+              <span class="soft-skill">Code Review</span>
+              <span class="soft-skill">Mentoring</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title" class="section-title">Mari Berkolaborasi</h2>
+          <p class="section-subtitle">Siap untuk projek baru? Mari diskusikan ide Anda!</p>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <h3>Email</h3>
+                  <a href="mailto:you@example.com">you@example.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div class="contact-details">
+                  <h3>WhatsApp</h3>
+                  <a href="https://wa.me/62882006535777">+62 882-0065-35777</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">💼</div>
+                <div class="contact-details">
+                  <h3>LinkedIn</h3>
+                  <a href="https://linkedin.com/in/muhammad-zahran-yusuf" target="_blank"
+                    rel="noopener">linkedin.com/in/muhammad-zahran-yusuf</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">🐙</div>
+                <div class="contact-details">
+                  <h3>GitHub</h3>
+                  <a href="https://github.com/jachrnnn" target="_blank" rel="noopener">github.com/jachrnnn</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📸</div>
+                <div class="contact-details">
+                  <h3>Instagram</h3>
+                  <a href="https://instagram.com/jachrnnn" target="_blank" rel="noopener">instagram.com/jachrnnn</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">🐦</div>
+                <div class="contact-details">
+                  <h3>Twitter</h3>
+                  <a href="https://twitter.com/jachrnnn" target="_blank" rel="noopener">twitter.com/jachrnnn</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">🎵</div>
+                <div class="contact-details">
+                  <h3>TikTok</h3>
+                  <a href="https://tiktok.com/@jachrnnn" target="_blank" rel="noopener">tiktok.com/@jachrnnn</a>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" action="#" method="post" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input id="name" name="name" type="text" class="form-input" placeholder="Masukkan nama lengkap Anda"
+                  required aria-describedby="name-error" />
+                <div id="name-error" class="error-message" role="alert"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="email" class="form-input" placeholder="your.email@example.com"
+                  required aria-describedby="email-error" />
+                <div id="email-error" class="error-message" role="alert"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subjek</label>
+                <select id="subject" name="subject" class="form-select" required>
+                  <option value="">Pilih subjek</option>
+                  <option value="project">Diskusi Proyek</option>
+                  <option value="collaboration">Kolaborasi</option>
+                  <option value="freelance">Freelance Work</option>
+                  <option value="other">Lainnya</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea id="message" name="message" rows="5" class="form-textarea"
+                  placeholder="Ceritakan tentang proyek atau ide Anda..." required
+                  aria-describedby="message-error"></textarea>
+                <div id="message-error" class="error-message" role="alert"></div>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                <label for="newsletter" class="checkbox-label">
+                  Saya ingin menerima update tentang proyek dan teknologi terbaru
+                </label>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-large">
+                  <span class="btn-text">Kirim Pesan</span>
+                  <span class="btn-icon">🚀</span>
+                </button>
+                <a href="https://wa.me/62882006535777" class="btn btn-whatsapp" target="_blank" rel="noopener">
+                  <span class="btn-icon">📱</span>
+                  <span class="btn-text">Chat WhatsApp</span>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <h3>Nama Anda</h3>
+            <p>Frontend Developer yang passionate dalam menciptakan pengalaman web yang luar biasa</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>Navigasi</h4>
+              <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Projek</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h4>Sosial Media</h4>
+              <ul>
+                <li><a href="https://github.com/jachrnnn" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/muhammad-zahran-yusuf" target="_blank" rel="noopener">LinkedIn</a>
+                </li>
+                <li><a href="https://twitter.com/jachrnnn" target="_blank" rel="noopener">Twitter</a></li>
+                <li><a href="https://instagram.com/jachrnnn" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://tiktok.com/@jachrnnn" target="_blank" rel="noopener">TikTok</a></li>
+                <li><a href="https://wa.me/62882006535777" target="_blank" rel="noopener">WhatsApp</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Nama Anda. Dibuat dengan ❤️ dan teknologi modern.</p>
+          <div class="footer-meta">
+            <span>Last updated: <time datetime="2025-01-27">27 Januari 2025</time></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" aria-label="Back to top">
+      <span class="back-to-top-icon">↑</span>
+    </button>
+
+    <!-- Loading screen -->
+    <div class="loading-screen" id="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">💻</div>
+        <div class="loading-text">Loading Portfolio...</div>
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
